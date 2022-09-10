@@ -27,19 +27,21 @@ winget install -e --id Git.Git # Git
 winget install -e --id OpenJS.NodeJS # Node.JS
 winget install -e --id Atlassian.Sourcetree # SourceTree
 winget install -e --id Microsoft.VisualStudioCode # VSCode
+winget install -e --id Docker.DockerDesktop # Docker Desktop
 
 # Terminal 
 winget install -e --id Microsoft.PowerShell #PowerShell 7+
 winget install -e --id JanDeDobbeleer.OhMyPosh # OhMyPosh
 winget install -e --id gerardog.gsudo # gsudo
 
-# Games
+# Games Launchers
 winget install -e --id Valve.Steam #Steam
 winget install -e --id EpicGames.EpicGamesLauncher # Epic Games Launcher
 winget install -e --id Playnite.Playnite # Playnite
 
-# Valorant addons
+# For Gaming
 winget install -e --id Soneliem.WAIUA # WAIUA
+winget install -e --id MedalB.V.Medal # Medal.tv
 
 # Other
 winget install -e --id Microsoft.PowerToys # PowerToys
