@@ -48,5 +48,6 @@ winget install -e --id Microsoft.PowerToys # PowerToys
 winget install -e --id qBittorrent.qBittorrent # qBittorrent
 winget install -e --id Spotify.Spotify # Spotify
 winget install -e --id Azul.Zulu.17.JDK # JDK
-winget install -e --id  File-New-Project.EarTrumpet # EarTrumpet
+winget install -e --id File-New-Project.EarTrumpet # EarTrumpet
+winget install -e --id OpenVPNTechnologies.OpenVPN #OpenVPN
 
