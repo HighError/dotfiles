@@ -25,6 +25,7 @@ winget install -e --id VideoLAN.VLC # VLC
 # Devs
 winget install -e --id Git.Git # Git
 winget install -e --id OpenJS.NodeJS # Node.JS
+winget install -e --id Yarn.Yarn # Yarn
 winget install -e --id Atlassian.Sourcetree # SourceTree
 winget install -e --id Microsoft.VisualStudioCode # VSCode
 winget install -e --id Docker.DockerDesktop # Docker Desktop
@@ -46,7 +47,7 @@ winget install -e --id MedalB.V.Medal # Medal.tv
 # Other
 winget install -e --id Microsoft.PowerToys # PowerToys
 winget install -e --id qBittorrent.qBittorrent # qBittorrent
-winget install -e --id Spotify.Spotify # Spotify
+winget install -e --id Spotify.Spotify --force # Spotify
 winget install -e --id Azul.Zulu.17.JDK # JDK
 winget install -e --id File-New-Project.EarTrumpet # EarTrumpet
 winget install -e --id OpenVPNTechnologies.OpenVPN #OpenVPN
