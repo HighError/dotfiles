@@ -20,7 +20,7 @@ winget install -e --id Discord.Discord # Discord
 winget install -e --id Telegram.TelegramDesktop # Telegram
 winget install -e --id 7zip.7zip # 7-zip
 winget install -e --id ShareX.ShareX # ShareX
-winget install -e --id clsid2.mpc-hc # MPC-HC
+winget install -e --id VideoLAN.VLC # VLC
 
 # Devs
 winget install -e --id Git.Git # Git
@@ -50,4 +50,3 @@ winget install -e --id Spotify.Spotify # Spotify
 winget install -e --id Azul.Zulu.17.JDK # JDK
 winget install -e --id File-New-Project.EarTrumpet # EarTrumpet
 winget install -e --id OpenVPNTechnologies.OpenVPN #OpenVPN
-
