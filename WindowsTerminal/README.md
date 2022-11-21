@@ -1,2 +1,2 @@
-Need to install Nard Hack Font
-https://github.com/ryanoasis/nerd-fonts
+Need to install Nerd Hack Font
+(https://github.com/ryanoasis/nerd-fonts)
