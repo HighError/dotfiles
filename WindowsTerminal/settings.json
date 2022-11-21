@@ -1,63 +1,42 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        }
-    ],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
+    "actions": [],
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "firstWindowPreference": "defaultProfile",
+    "initialCols": 90,
+    "initialRows": 25,
     "profiles": 
     {
         "defaults": 
         {
-            "colorScheme": "Sakura",
-            "experimental.retroTerminalEffect": false,
+            "colorScheme": "xcad",
+            "cursorShape": "filledBox",
             "font": 
             {
-                "face": "MesloLGL NF"
+                "face": "MesloLGM Nerd Font",
+                "size": 14
             },
-            "opacity": 65,
-            "useAcrylic": true
+            "historySize": 12000,
+            "intenseTextStyle": "bright",
+            "opacity": 95,
+            "padding": "8",
+            "scrollbarState": "visible",
+            "useAcrylic": false
         },
         "list": 
         [
             {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe --NoLogo",
+                "elevate": false,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "tabTitle": "PowerShell"
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "CMD"
             }
         ]
     },
@@ -154,29 +133,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
-        },
-        {
-            "background": "#18131E",
-            "black": "#000000",
-            "blue": "#6964AB",
-            "brightBlack": "#786D69",
-            "brightBlue": "#9892F1",
-            "brightCyan": "#EEEEEE",
-            "brightGreen": "#22E529",
-            "brightPurple": "#E90CDD",
-            "brightRed": "#F41D99",
-            "brightWhite": "#CBB6FF",
-            "brightYellow": "#F59574",
-            "cursorColor": "#FF65FD",
-            "cyan": "#939393",
-            "foreground": "#DD7BDC",
-            "green": "#41AF1A",
-            "name": "Sakura",
-            "purple": "#C71FBF",
-            "red": "#D52370",
-            "selectionBackground": "#C05CBF",
-            "white": "#998EAC",
-            "yellow": "#BC7053"
         },
         {
             "background": "#002B36",
@@ -294,27 +250,30 @@
             "yellow": "#808000"
         },
         {
-            "background": "#2A2139",
-            "black": "#FEFEFE",
-            "blue": "#6D77B3",
-            "brightBlack": "#FEFEFE",
-            "brightBlue": "#36F9F6",
-            "brightCyan": "#F92AAD",
-            "brightGreen": "#72F1B8",
-            "brightPurple": "#E1ACFF",
-            "brightRed": "#F88414",
-            "brightWhite": "#FEFEFE",
-            "brightYellow": "#FFF951",
-            "cursorColor": "#72F1B8",
-            "cyan": "#F772E0",
-            "foreground": "#F0EFF1",
-            "green": "#72F1B8",
-            "name": "synthwave-everything",
-            "purple": "#C792EA",
-            "red": "#F97E72",
-            "selectionBackground": "#181521",
-            "white": "#FEFEFE",
-            "yellow": "#FEDE5D"
+            "background": "#1A1A1A",
+            "black": "#121212",
+            "blue": "#2B4FFF",
+            "brightBlack": "#666666",
+            "brightBlue": "#5C78FF",
+            "brightCyan": "#5AC8FF",
+            "brightGreen": "#905AFF",
+            "brightPurple": "#5EA2FF",
+            "brightRed": "#BA5AFF",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#685AFF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#28B9FF",
+            "foreground": "#F1F1F1",
+            "green": "#7129FF",
+            "name": "xcad",
+            "purple": "#2883FF",
+            "red": "#A52AFF",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F1F1F1",
+            "yellow": "#3D2AFF"
         }
-    ]
+    ],
+    "showTabsInTitlebar": true,
+    "tabSwitcherMode": "inOrder",
+    "useAcrylicInTabRow": true
 }
