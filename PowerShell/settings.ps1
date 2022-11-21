@@ -4,4 +4,4 @@
 
 oh-my-posh init pwsh | Invoke-Expression
 Import-Module -Name Terminal-Icons
-oh-my-posh init pwsh --config C:\Users\HighError\AppData\Local\Programs\oh-my-posh\themes\velvet.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config C:\Users\HighError\AppData\Local\Programs\oh-my-posh\themes\takuya.omp.json | Invoke-Expression
