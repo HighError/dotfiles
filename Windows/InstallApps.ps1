@@ -42,7 +42,6 @@ winget install -e --id Playnite.Playnite # Playnite
 
 # For Gaming
 winget install -e --id Soneliem.WAIUA # WAIUA
-winget install -e --id MedalB.V.Medal # Medal.tv
 
 # Other
 winget install -e --id Microsoft.PowerToys # PowerToys
