@@ -76,7 +76,10 @@
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.linkedEditing": true,
   "projectManager.tags": ["Family", "Diplom"],
-  "workbench.colorTheme": "Evondev Dracula Darker Contrast",
+  "workbench.colorTheme": "Tokyo Night",
   "errorLens.fontFamily": "Fira Code",
-  "color-highlight.matchRgbWithNoFunction": true
+  "color-highlight.matchRgbWithNoFunction": true,
+  "svg.preview.mode": "svg",
+  "vscord.app.name": "Visual Studio Code",
+  "editor.accessibilitySupport": "off"
 }
