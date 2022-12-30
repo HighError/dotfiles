@@ -14,8 +14,6 @@ winget install -e --id Microsoft.VCRedist.2012.x64 # Microsoft Visual C++ 2012 R
 winget install -e --id Microsoft.VCRedist.2015+.x86 # Microsoft Visual C++ 2015-2022 Redistributable x86
 winget install -e --id Microsoft.VCRedist.2015+.x64 # Microsoft Visual C++ 2015-2022 Redistributable x64
 
-winget install -e --id Microsoft.DirectX # DirectX
-
 # Base apps
 winget install -e --id Google.Chrome # Google Chrome
 winget install -e --id Discord.Discord # Discord
