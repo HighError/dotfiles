@@ -15,7 +15,7 @@ winget install -e --id Microsoft.VCRedist.2015+.x86 # Microsoft Visual C++ 2015-
 winget install -e --id Microsoft.VCRedist.2015+.x64 # Microsoft Visual C++ 2015-2022 Redistributable x64
 
 # Base apps
-winget install -e --id Brave.Brave # Brave
+winget install -e --id Google.Chrome # Google Chrome
 winget install -e --id Discord.Discord # Discord
 winget install -e --id Telegram.TelegramDesktop # Telegram
 winget install -e --id 7zip.7zip # 7-zip
@@ -51,6 +51,5 @@ winget install -e --id Spotify.Spotify --force # Spotify
 winget install -e --id BellSoft.LibericaJDK.19.Full # JDK
 winget install -e --id File-New-Project.EarTrumpet # EarTrumpet
 winget install -e --id OpenVPNTechnologies.OpenVPN # OpenVPN
-winget install -e --id Bitwarden.Bitwarden # BitWarden
 winget install -e --id Obsidian.Obsidian # Obsidian
 winget install -e --id Nvidia.GeForceExperience # GeForceExperience
