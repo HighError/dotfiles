@@ -1,85 +1,196 @@
 {
-  "git.enableSmartCommit": true,
-  "explorer.confirmDelete": false,
-  "workbench.editorAssociations": {},
-  "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "security.workspace.trust.emptyWindow": false,
-  "security.workspace.trust.enabled": false,
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "security.workspace.trust.banner": "never",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.unicodeHighlight.nonBasicASCII": false,
-  // Remove .fvm files from search
-  "search.exclude": {
-    "**/.fvm": true
-  },
-  // Remove from file watching
-  "files.watcherExclude": {
-    "**/.fvm": true
-  },
-  "editor.quickSuggestions": {
-    "other": "on",
-    "comments": "off",
-    "strings": "off"
-  },
-  "color-highlight.languages": ["*"],
-  "color-highlight.matchWords": true,
-  "editor.fontLigatures": true,
-  "projectManager.vscode.maxDepthRecursion": 0,
-  "projectManager.projectsLocation": "E:\\Projects",
-  "projectManager.any.maxDepthRecursion": 1,
-  "projectManager.git.baseFolders": ["E:\\Projects"],
-  "projectManager.git.maxDepthRecursion": 0,
-  "window.title": "${appName}",
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.tree.renderIndentGuides": "none",
-  "emmet.triggerExpansionOnTab": true,
-  "editor.tabSize": 2,
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.guides.indentation": false,
-  "editor.guides.highlightActiveIndentation": false,
-  "editor.minimap.enabled": false,
-  "editor.renderLineHighlight": "gutter",
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
-  "terminal.integrated.fontSize": 12,
-  "terminal.external.windowsExec": "C:\\\\Users\\\\HighError\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\wt.exe",
-  "debug.console.closeOnEnd": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "Fira Code",
-  "terminal.integrated.fontWeight": "normal",
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.linkedEditing": true,
-  "projectManager.tags": ["Family", "Diplom"],
-  "workbench.colorTheme": "Tokyo Night",
-  "errorLens.fontFamily": "Fira Code",
-  "color-highlight.matchRgbWithNoFunction": true,
-  "svg.preview.mode": "svg",
-  "vscord.app.name": "Visual Studio Code",
-  "editor.accessibilitySupport": "off"
+	"git.enableSmartCommit": true,
+	"explorer.confirmDelete": false,
+	"files.autoSave": "afterDelay",
+	"editor.suggestSelection": "first",
+	"security.workspace.trust.emptyWindow": false,
+	"security.workspace.trust.enabled": false,
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"editor.formatOnSave": true,
+	"security.workspace.trust.banner": "never",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	// Remove .fvm files from search
+	"search.exclude": {
+		"**/.fvm": true
+	},
+	// Remove from file watching
+	"files.watcherExclude": {
+		"**/.fvm": true
+	},
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": "off"
+	},
+	"color-highlight.languages": ["*"],
+	"color-highlight.matchWords": true,
+	"editor.fontLigatures": true,
+	"window.title": "${appName}",
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.tree.renderIndentGuides": "none",
+	"emmet.triggerExpansionOnTab": true,
+	"editor.tabSize": 2,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.guides.indentation": false,
+	"editor.guides.highlightActiveIndentation": false,
+	"editor.minimap.enabled": false,
+	"editor.renderLineHighlight": "gutter",
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.fontFamily": "Hack Nerd Font",
+	"terminal.integrated.fontSize": 12,
+	"debug.console.closeOnEnd": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"prettier.useTabs": true,
+	"prettier.jsxSingleQuote": false,
+	"prettier.tabWidth": 2,
+	"prettier.arrowParens": "avoid",
+	"prettier.singleQuote": true,
+	"eslint.alwaysShowStatus": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.fontFamily": "Fira Code",
+	"terminal.integrated.fontWeight": "normal",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.linkedEditing": true,
+	"workbench.colorTheme": "Tokyo Night",
+	"errorLens.fontFamily": "Fira Code",
+	"color-highlight.matchRgbWithNoFunction": true,
+	"svg.preview.mode": "svg",
+	"vscord.app.name": "Visual Studio Code",
+	"editor.accessibilitySupport": "off",
+	"redhat.telemetry.enabled": false
+}
+{
+	"git.enableSmartCommit": true,
+	"explorer.confirmDelete": false,
+	"files.autoSave": "afterDelay",
+	"editor.suggestSelection": "first",
+	"security.workspace.trust.emptyWindow": false,
+	"security.workspace.trust.enabled": false,
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"editor.formatOnSave": true,
+	"security.workspace.trust.banner": "never",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	// Remove .fvm files from search
+	"search.exclude": {
+		"**/.fvm": true
+	},
+	// Remove from file watching
+	"files.watcherExclude": {
+		"**/.fvm": true
+	},
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "off",
+		"strings": "off"
+	},
+	"color-highlight.languages": ["*"],
+	"color-highlight.matchWords": true,
+	"editor.fontLigatures": true,
+	"window.title": "${appName}",
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.tree.renderIndentGuides": "none",
+	"emmet.triggerExpansionOnTab": true,
+	"editor.tabSize": 2,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.guides.indentation": false,
+	"editor.guides.highlightActiveIndentation": false,
+	"editor.minimap.enabled": false,
+	"editor.renderLineHighlight": "gutter",
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.fontFamily": "Hack Nerd Font",
+	"terminal.integrated.fontSize": 12,
+	"debug.console.closeOnEnd": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"prettier.useTabs": true,
+	"prettier.jsxSingleQuote": false,
+	"prettier.tabWidth": 2,
+	"prettier.arrowParens": "avoid",
+	"prettier.singleQuote": true,
+	"eslint.alwaysShowStatus": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.fontFamily": "Fira Code",
+	"terminal.integrated.fontWeight": "normal",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.linkedEditing": true,
+	"workbench.colorTheme": "Tokyo Night",
+	"errorLens.fontFamily": "Fira Code",
+	"color-highlight.matchRgbWithNoFunction": true,
+	"svg.preview.mode": "svg",
+	"vscord.app.name": "Visual Studio Code",
+	"editor.accessibilitySupport": "off",
+	"redhat.telemetry.enabled": false
 }
