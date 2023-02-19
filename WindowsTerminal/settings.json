@@ -10,12 +10,12 @@
     {
         "defaults": 
         {
-            "colorScheme": "Tokyo Night",
+            "colorScheme": "Aura Soft Dark",
             "cursorShape": "filledBox",
             "font": 
             {
                 "face": "Hack Nerd Font",
-                "size": 14
+                "size": 14.0
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
@@ -39,15 +39,37 @@
                 "name": "CMD"
             },
             {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+                "name": "Windows PowerShell"
             }
         ]
     },
     "schemes": 
     [
+        {
+            "background": "#21202E",
+            "black": "#1C1B22",
+            "blue": "#61FFCA",
+            "brightBlack": "#4D4D4D",
+            "brightBlue": "#A277FF",
+            "brightCyan": "#61FFCA",
+            "brightGreen": "#A277FF",
+            "brightPurple": "#A277FF",
+            "brightRed": "#FFCA85",
+            "brightWhite": "#EDECEE",
+            "brightYellow": "#FFCA85",
+            "cursorColor": "#A277FF",
+            "cyan": "#EDECEE",
+            "foreground": "#EDECEE",
+            "green": "#61FFCA",
+            "name": "Aura Soft Dark",
+            "purple": "#A277FF",
+            "red": "#FF6767",
+            "selectionBackground": "#A394F0",
+            "white": "#EDECEE",
+            "yellow": "#FFCA85"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -350,5 +372,6 @@
     ],
     "showTabsInTitlebar": true,
     "tabSwitcherMode": "inOrder",
+    "themes": [],
     "useAcrylicInTabRow": true
 }
