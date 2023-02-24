@@ -43,7 +43,7 @@ winget install --id Playnite.Playnite # Playnite
 winget install --id Microsoft.PowerToys # PowerToys
 winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify --force # Spotify
-winget install --id Spicetify.Spicetify # Spicetify (Spotify mod)
 winget install --id BellSoft.LibericaJDK.19.Full # JDK
 winget install --id OpenVPNTechnologies.OpenVPN # OpenVPN
 winget install --id Obsidian.Obsidian # Obsidian
+winget install --id nilesoft.shell # NileSoft Shell

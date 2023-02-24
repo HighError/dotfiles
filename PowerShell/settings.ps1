@@ -1,7 +1,4 @@
-# Need install oh-my-posh and terminal-icons
-# For install oh-my-posh: winget install JanDeDobbeleer.OhMyPosh -s winget
-# For install terminal-icons: Install-Module -Name Terminal-Icons -Repository PSGallery
-
+$env:POSH_GIT_ENABLED = $true
 oh-my-posh init pwsh | Invoke-Expression
 Import-Module -Name Terminal-Icons
-oh-my-posh init pwsh --config C:\Users\HighError\AppData\Local\Programs\oh-my-posh\themes\takuya.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\higherror.omp.json" | Invoke-Expression
