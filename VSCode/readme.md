@@ -11,7 +11,8 @@
 ```pwsh
 code --install-extension aaron-bond.better-comments
 code --install-extension alefragnani.project-manager
-code --install-extension DaltonMenezes.aura-theme
+code --install-extension catppuccin.catppuccin-vsc
+code --install-extension Catppuccin.catppuccin-vsc-icons
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode

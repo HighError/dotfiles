@@ -6,10 +6,16 @@
   "firstWindowPreference": "defaultProfile",
   "initialCols": 90,
   "initialRows": 25,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
   "profiles": {
     "defaults": {
-      "colorScheme": "Aura Soft Dark",
+      "colorScheme": "Catppuccin Mocha",
       "cursorShape": "filledBox",
+      "experimental.retroTerminalEffect": false,
       "font": {
         "face": "Hack Nerd Font",
         "size": 14.0
@@ -19,7 +25,8 @@
       "opacity": 95,
       "padding": "8",
       "scrollbarState": "visible",
-      "useAcrylic": false
+      "useAcrylic": false,
+      "useAtlasEngine": false
     },
     "list": [
       {
@@ -33,38 +40,10 @@
       {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "CMD"
-      },
-      {
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "Windows PowerShell"
       }
     ]
   },
   "schemes": [
-    {
-      "background": "#21202E",
-      "black": "#1C1B22",
-      "blue": "#61FFCA",
-      "brightBlack": "#4D4D4D",
-      "brightBlue": "#A277FF",
-      "brightCyan": "#61FFCA",
-      "brightGreen": "#A277FF",
-      "brightPurple": "#A277FF",
-      "brightRed": "#FFCA85",
-      "brightWhite": "#EDECEE",
-      "brightYellow": "#FFCA85",
-      "cursorColor": "#A277FF",
-      "cyan": "#EDECEE",
-      "foreground": "#EDECEE",
-      "green": "#61FFCA",
-      "name": "Aura Soft Dark",
-      "purple": "#A277FF",
-      "red": "#FF6767",
-      "selectionBackground": "#A394F0",
-      "white": "#EDECEE",
-      "yellow": "#FFCA85"
-    },
     {
       "background": "#0C0C0C",
       "black": "#0C0C0C",
@@ -110,6 +89,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#1E1E2E",
+      "black": "#45475A",
+      "blue": "#89B4FA",
+      "brightBlack": "#585B70",
+      "brightBlue": "#89B4FA",
+      "brightCyan": "#94E2D5",
+      "brightGreen": "#A6E3A1",
+      "brightPurple": "#F5C2E7",
+      "brightRed": "#F38BA8",
+      "brightWhite": "#A6ADC8",
+      "brightYellow": "#F9E2AF",
+      "cursorColor": "#F5E0DC",
+      "cyan": "#94E2D5",
+      "foreground": "#CDD6F4",
+      "green": "#A6E3A1",
+      "name": "Catppuccin Mocha",
+      "purple": "#F5C2E7",
+      "red": "#F38BA8",
+      "selectionBackground": "#585B70",
+      "white": "#BAC2DE",
+      "yellow": "#F9E2AF"
     },
     {
       "background": "#282A36",
@@ -367,6 +369,5 @@
   ],
   "showTabsInTitlebar": true,
   "tabSwitcherMode": "inOrder",
-  "themes": [],
   "useAcrylicInTabRow": true
 }

@@ -40,10 +40,9 @@ winget install --id EpicGames.EpicGamesLauncher # Epic Games Launcher
 winget install --id Playnite.Playnite # Playnite
 
 # Other
-winget install --id Microsoft.PowerToys # PowerToys
 winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify --force # Spotify
-winget install --id BellSoft.LibericaJDK.19.Full # JDK
-winget install --id OpenVPNTechnologies.OpenVPN # OpenVPN
 winget install --id Obsidian.Obsidian # Obsidian
 winget install --id nilesoft.shell # NileSoft Shell
+winget install --id Flow-Launcher.Flow-Launcher # Flow lanhcer
+winget install --id OBSProject.OBSStudio # OBS
