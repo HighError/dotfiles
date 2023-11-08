@@ -18,7 +18,6 @@ winget install --id Microsoft.VCRedist.2015+.x64 # Microsoft Visual C++ 2015-202
 winget install --id Google.Chrome # Google Chrome
 winget install --id Discord.Discord # Discord
 winget install --id Telegram.TelegramDesktop # Telegram
-winget install --id M2Team.NanaZip # 7-zip alternative (comp. with Windows 11 context menu)
 winget install --id ShareX.ShareX # ShareX
 
 # Devs
@@ -26,14 +25,13 @@ winget install --id Microsoft.VisualStudioCode -i # VSCode
 winget install --id Git.Git -i # Git
 winget install --id OpenJS.NodeJS.LTS # Node.JS
 winget install --id Docker.DockerDesktop # Docker Desktop
-winget install --id MongoDB.Compass.Full # MongoDB Compass
 winget install --id Insomnia.Insomnia # Insomnia
-winget install --id JetBrains.WebStorm # WebStorm
 
 # Terminal 
 winget install --id Microsoft.PowerShell #PowerShell 7+
 winget install --id JanDeDobbeleer.OhMyPosh # OhMyPosh
 winget install --id gerardog.gsudo # gsudo
+winget install --id Microsoft.PowerToys # PowerToys
 
 # Games Launchers
 winget install --id Valve.Steam #Steam
@@ -44,6 +42,4 @@ winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify # Spotify
 winget install --id Obsidian.Obsidian # Obsidian
 winget install --id nilesoft.shell # NileSoft Shell
-winget install --id Flow-Launcher.Flow-Launcher # Flow lanhcer
 winget install --id OBSProject.OBSStudio # OBS
-winget install --id Twilio.Authy #Authy
