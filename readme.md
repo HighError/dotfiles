@@ -2,11 +2,11 @@
 
 These settings were tested on:
 
-- Windows 11 22H2 (build 22621.1848)
-- NileSoft Shell v1.8.1
-- Oh My Posh v17.5.3
-- PowerShell v7.3.5.0
-- VsCode v1.79.2
-- WindowsTerminal v1.17.11461.0
+- Windows 11 23H2 (build 22631.3374)
+- NileSoft Shell v1.9.15
+- Oh My Posh 19.20.0
+- PowerShell v7.4.1.0
+- VsCode v1.88.0
+- WindowsTerminal v1.19.10821.0
 
-Last update: 02.07.2023
+Last update: 07.04.2024

@@ -19,6 +19,7 @@ winget install --id Google.Chrome # Google Chrome
 winget install --id Discord.Discord # Discord
 winget install --id Telegram.TelegramDesktop # Telegram
 winget install --id ShareX.ShareX # ShareX
+winget install --id 7Zip.7Zip # 7-zip
 
 # Devs
 winget install --id Microsoft.VisualStudioCode -i # VSCode
@@ -31,15 +32,19 @@ winget install --id Insomnia.Insomnia # Insomnia
 winget install --id Microsoft.PowerShell #PowerShell 7+
 winget install --id JanDeDobbeleer.OhMyPosh # OhMyPosh
 winget install --id gerardog.gsudo # gsudo
-winget install --id Microsoft.PowerToys # PowerToys
 
 # Games Launchers
 winget install --id Valve.Steam #Steam
 winget install --id Playnite.Playnite # Playnite
+winget install --id derrod.legendary # Epic game store
 
 # Other
 winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify # Spotify
-winget install --id Obsidian.Obsidian # Obsidian
 winget install --id nilesoft.shell # NileSoft Shell
 winget install --id OBSProject.OBSStudio # OBS
+winget install --id Flow-Launcher.Flow-Launcher
+
+winget install --id Gyan.FFmpeg
+winget install --id yt-dlp.yt-dlp
+powershell.exe Install-Module -Name Terminal-Icons

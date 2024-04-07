@@ -32,8 +32,6 @@ notepad $PROFILE
 
 6. Paste the entire content from `settings.ps1`
 
-7. **Optional**: If you haven't installed my theme, replace the path to the theme in line 4
-
 ```pwsh
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\YOUR_THEME.omp.json" | Invoke-Expression
 ```
