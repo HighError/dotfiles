@@ -31,7 +31,6 @@
 - christian-kohler.path-intellisense
 - esbenp.prettier-vscode
 - yoavbls.pretty-ts-errors
-- zjffun.snippetsmanager
 - jock.svg
 - sndst00m.vscode-native-svg-preview
 - bradlc.vscode-tailwindcss
