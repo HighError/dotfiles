@@ -1,0 +1,56 @@
+{
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.toolBarLocation": "commandCenter",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.codeLensFontFamily": "Fira Code", // Need install Fira Code (https://github.com/tonsky/FiraCode)
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Fira Code", // Need install Fira Code (https://github.com/tonsky/FiraCode)
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 100, 120],
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.validate.enabled": true,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  // "sync.gist": "045959858605bfea8b37dbd193feaa16", // My Settings (Gist ID)
+  "sync.quietSync": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontFamily": "Hack Nerd Font", // Need install Nerd Font (https://github.com/ryanoasis/nerd-fonts)
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.smoothScrolling": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.list.smoothScrolling": true
+}

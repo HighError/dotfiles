@@ -1,11 +1,11 @@
 ﻿settings
 {
-	priority=1
-	exclude.where = !process.is_explorer
-	showdelay = 200
-	// Options to allow modification of system items
-	modify.remove.duplicate=1
-	tip.enabled=true
+    priority=1
+    exclude.where = !process.is_explorer
+    showdelay = 200
+    // Options to allow modification of system items
+    modify.remove.duplicate=1
+    tip.enabled=true
 }
 
 import 'imports/theme.nss'
@@ -18,8 +18,6 @@ menu(mode="multiple" title=title.more_options image=icon.more_options)
 {
 }
 
-import 'imports/terminal.nss'
 import 'imports/file-manage.nss'
-import 'imports/develop.nss'
 import 'imports/goto.nss'
 import 'imports/taskbar.nss'

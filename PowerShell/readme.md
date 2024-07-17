@@ -19,19 +19,22 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 4. Open profile settings:
 
 ```pwsh
-code $PROFILE
+codium $PROFILE
 ```
 
+or
+
+```pwsh
+code $PROFILE
+```
 or
 
 ```pwsh
 notepad $PROFILE
 ```
 
-5. **Optional**: Install [my oh-my-posh theme](/oh-my-posh/)
+5. **Optional**: Install [my theme](./higherror.omp.json)
+   1. Copy `higherror.omp.json` to `%POSH_THEMES_PATH%`
 
 6. Paste the entire content from `settings.ps1`
-
-```pwsh
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\YOUR_THEME.omp.json" | Invoke-Expression
-```
+   1. Uncomment my theme section
