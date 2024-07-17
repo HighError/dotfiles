@@ -42,6 +42,7 @@
   "explorer.confirmDragAndDrop": false,
   "files.autoGuessEncoding": true,
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
