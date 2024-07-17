@@ -9,4 +9,4 @@ These settings were tested on:
 - VSCodium v1.91
 - WindowsTerminal v1.20.11781.0
 
-Last update: 07.04.2024
+Last update: 17.07.2024
