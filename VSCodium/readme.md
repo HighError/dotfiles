@@ -11,10 +11,12 @@
 - astro-build.astro-vscode
 - formulahendry.auto-rename-tag
 - mgmcdermott.vscode-language-babel
-- chamboug.js-auto-backticks
+- fractalbrew.backticks
 - aaron-bond.better-comments
 - biomejs.biome
+- pixl-garden.BongoCat
 - Catppuccin.catppuccin-vsc
+- thang-nm.catppuccin-perfect-icons
 - formulahendry.code-runner
 - Codeium.codeium
 - adpyke.codesnap
@@ -23,21 +25,31 @@
 - LeonardSSH.vscord
 - mikestead.dotenv
 - usernamehw.errorlens
+- mhutchie.git-graph
+- eamodio.gitlens
 - ecmel.vscode-html-css
 - lokalise.i18n-ally
 - wix.vscode-import-cost
 - kisstkondoros.vscode-gutter-preview
+- wix.vscode-import-cost
+- VisualStudioExptTeam.vscodeintellicode
+- christian-kohler.path-intellisense
+- ms-vsliveshare.vsliveshare
 - yzhang.markdown-all-in-one
 - christian-kohler.path-intellisense
+- vunguyentuan.vscode-postcss
+- csstools.postcss
 - esbenp.prettier-vscode
 - yoavbls.pretty-ts-errors
+- wware.snippet-creator
 - jock.svg
 - sndst00m.vscode-native-svg-preview
+- OmriGrossman.tailwind-color-matcher
+- QuentiumYT.vscode-tailwindcss-directives
 - bradlc.vscode-tailwindcss
 - Gruntfuggly.todo-tree
 - pflannery.vscode-versionlens
 - WakaTime.vscode-wakatime
-- wilfriedago.vscode-symbols-icon-theme
 
 4. Press F1 and enter `Open user settings (JSON)`
 
