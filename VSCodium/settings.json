@@ -1,4 +1,5 @@
-"[astro]": {
+{
+  "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[json]": {
@@ -55,11 +56,6 @@
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.emptyWindow": false,
   "security.workspace.trust.enabled": false,
-  "symbols.hidesExplorerArrows": false,
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  // "sync.gist": "045959858605bfea8b37dbd193feaa16", // My Settings (Gist ID)
-  "sync.quietSync": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "Hack Nerd Font", // Need install Nerd Font (https://github.com/ryanoasis/nerd-fonts)
@@ -69,5 +65,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "symbols",
-  "workbench.list.smoothScrolling": true
+  "workbench.iconTheme": "catppuccin-perfect-mocha",
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "bongocat"
+}
