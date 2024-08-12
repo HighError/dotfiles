@@ -63,9 +63,10 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.smoothScrolling": true,
   "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "catppuccin-perfect-mocha",
+  "workbench.iconTheme": "catppuccin-perfect-latte",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "bongocat"
 }
