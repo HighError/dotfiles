@@ -15,7 +15,6 @@ winget install --id Microsoft.VisualStudioCode -i # VSCode
 winget install --id Git.Git -i # Git
 winget install --id OpenJS.NodeJS.LTS # Node.JS
 winget install --id Docker.DockerDesktop # Docker Desktop
-winget install --id Insomnia.Insomnia # Insomnia
 
 # Terminal 
 winget install --id Microsoft.PowerShell #PowerShell 7+
@@ -31,7 +30,4 @@ winget install --id Playnite.Playnite # Playnite
 # Other
 winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify # Spotify
-winget install --id nilesoft.shell # NileSoft Shell
-winget install --id OBSProject.OBSStudio # OBS
-winget install --id Notion.Notion # NotionVideoLAN.VLC
-winget install --id VideoLAN.VLC # VLC
+winget install --id nilesoft.shell -i # NileSoft Shell
