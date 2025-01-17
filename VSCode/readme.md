@@ -4,7 +4,7 @@
 
 1. Install [FiraCode font](https://github.com/tonsky/FiraCode)
 
-2. Open VSCodium
+2. Open VSCode
 
 3. **Optional**: Install extensions:
 
