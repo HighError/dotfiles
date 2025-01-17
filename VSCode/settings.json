@@ -1,27 +1,8 @@
 {
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "snippets": true
-  },
   "debug.toolBarLocation": "commandCenter",
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "always"
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit",
   },
   "editor.codeLensFontFamily": "Fira Code", // Need install Fira Code (https://github.com/tonsky/FiraCode)
   "editor.cursorBlinking": "phase",
@@ -68,5 +49,25 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-perfect-latte",
   "workbench.list.smoothScrolling": true,
-  "workbench.productIconTheme": "bongocat"
+  "workbench.productIconTheme": "bongocat",
+  "git.openRepositoryInParentFolders": "never",
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "git.confirmSync": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
