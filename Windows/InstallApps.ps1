@@ -1,10 +1,6 @@
-# Microsoft Visual C++ Redistributable
-Install-Module -Name VcRedist
-
 # Base apps
 winget install --id Google.Chrome # Google Chrome
 winget install --id M2Team.NanaZip # NanaZip
-winget install --id ShareX.ShareX -i # ShareX
 
 # Socials
 winget install --id Discord.Discord # Discord
@@ -28,6 +24,9 @@ winget install --id derrod.legendary # EGS (Legendary)
 winget install --id Playnite.Playnite # Playnite
 
 # Other
+winget install --id RamenSoftware.Windhawk # Windhawk
+winget install --id ShareX.ShareX -i # ShareX
+winget install --id Bitwarden.Bitwarden # BitWarden
 winget install --id qBittorrent.qBittorrent # qBittorrent
 winget install --id Spotify.Spotify # Spotify
-winget install --id nilesoft.shell -i # NileSoft Shell
+winget install --id nilesoft.shell # NileSoft Shell
